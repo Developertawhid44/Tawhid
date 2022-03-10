@@ -1,0 +1,921 @@
+/* global css*{ */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* body is here */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+header{
+    background: url(../img/1st-background-.png) no-repeat center center;
+    background-size: cover;
+    color:white;
+    width: 100%;
+    float: left;
+    z-index: 0;
+    margin-bottom: -250px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header part */
+.header-part{
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    margin: 30px auto;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part nav{
+    text-align: right;
+    margin: 30px auto;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+}
+
+/* hero part */
+.hero-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 50px auto 0px;
+    margin-top: 120px;
+}
+.hero-text h1{
+    font-size: 55px;
+}
+.hero-text p{
+    font-size: 20px;
+    margin: 30px auto 40px;
+}
+.hero-button{
+    margin: 10px auto 80px;
+}
+.button-1{
+    padding: 10px;
+    width: 170px;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 8px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+}
+.button-2{
+    background: transparent;
+    padding: 10px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 800;
+    color: white;
+}
+.hero-img img{
+    width: 22%;
+}
+
+/* about section */
+.about{
+    width: 100%;
+    float: left;
+    padding: 700px 0px 100px;
+    background: url(../img/2nd-background.png) no-repeat center center;
+    background-size: cover;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.about-container{
+    width: 90%;
+    margin: auto;
+}
+.about-img-part{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.about-img-part img{
+    margin: -300px auto 0px;
+}
+.about-feature-part{
+    width: 25%;
+    float: left;
+    margin: -350px auto 50px;
+}
+.b-x{
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+    box-shadow: 0px 0px 4px rgba(173, 173, 173, 0.651);
+    border-radius: 5px;
+}
+.b-x h2{
+    font-size: 19px;
+    margin: 0px auto 10px;
+}
+.b-x p{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+.b-x img{
+    width: 40px;
+    margin: 0px auto 25px;
+}
+.box-1{
+    position: relative;
+    margin: 50px auto 0px;
+}
+.box-2{
+    position: relative;
+    margin: 150px 0px 0px 0px ;
+}
+.box-3{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.box-4{
+    position: relative;
+    margin: 120px auto 0px;
+}
+
+/* ready part */
+.ready{
+    width: 100%;
+    float: right;
+}
+.writing-part{
+    width: 48%;
+    float: left;
+    text-align: right;
+    margin: 200px 0px 0px 0px;
+}
+.writing-part h2{
+    font-size: 30px;
+}
+.writing-part p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.5rem;
+    margin: 20px 0px 30px 30px;
+}
+.w-p-btn{
+    background: #33d2fd;
+    padding: 10px;
+    width: 180px;
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 8px;
+    font-weight: 800;
+    color: white;
+}
+.ready-container{
+    width: 50%;
+    float: left;
+    margin: 100px 0px 0px 0px;
+}
+.c-d{
+    width: 80%;
+    margin: 15px auto 0px;
+    padding: 22px;
+    box-sizing: 0px 0px 8px;
+    border-radius: 5px; 
+    color: black;
+    border: 2px solid rgb(236, 236, 236);
+}
+.c-d img{
+    width: 6%;
+    float: left;
+    margin-right: 10px;
+}
+.c-d h2{
+    font-size: 15px;
+}
+.c-6{
+    width: 80%;
+    margin: 15px auto 2px;
+    padding: 22px 22px 70px 22px;
+    box-sizing: 0px 0px 8px;
+    border-radius: 8px; 
+    background: #33d2fd;
+    color: black;
+    border: 1px solid rgb(236, 236, 236);
+}
+.c-6 img{
+    width: 3%;
+    float: left;
+    margin-right: 10px;
+}
+.c-6 h2{
+    font-size: 20px;
+}
+.c-6 p{
+    font-size: 12px;
+    float: left;
+    color: white;
+    line-height: 1.3rem;
+    margin: 5px 0px 0px 25px;
+}
+
+/* need section */
+.need{
+    width: 100%;
+    float: left;
+    margin: 0px 0px 100px 0px;
+    background: url(../img/4th-background.png) no-repeat center center;
+    background-size: cover;
+}
+.need-img-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.need-img-part img{
+    width: 90%;
+    margin: 170px 0px 0px 0px;
+}
+.need-writing-part{
+    width: 50%;
+    float: left;
+}
+.n-w{
+    margin: 230px 0px 0px 50px;
+}
+.n-w h2{
+    font-size: 30px;
+    margin: 0px auto 20px;
+}
+.n-w h3{
+    font-size: 15px;
+    margin: 0px auto 12px;
+}
+.n-w i{
+    background-color:  #0ac0f1;
+    border-radius: 10px;
+    margin: 0px 5px 0px 0px;
+}
+.n-w p{
+    width: 90%;
+    line-height: 1.5rem;
+    margin: 20px 0px;
+}
+
+/* now part */
+.now{
+    width: 100%;
+    float: left;
+    background: url(../img/5th-background.png) no-repeat center center;
+    background-size: cover;
+}
+.now-img-part{
+    width: 42%;
+    float: left;
+    text-align: right;
+}
+.now-img-part img{
+    width: 40%;
+    margin: 150px 0px;
+}
+.now-writing-part{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.n-w-p{
+    margin: 300px 0px 0px 100px;
+}
+.n-w-p h2{
+    margin: 0px 0px 20px 0px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.n-w-p p{
+    width: 80%;
+    margin: 0px 0px 40px 0px;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.n-w-p i{
+    font-size: 35px;
+    float: left;
+}
+.b-1{
+    background: rgb(0, 0, 0);
+    padding: 3px;
+    width: 180px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 0px 30px 0px 0px;
+}
+.b-2{
+    background: rgb(0, 0, 0);
+    padding: 3px;
+    width: 180px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+/* vajal part */
+.vajal{
+    width: 100%;
+    float: left;
+}
+.vajal-button-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.v-b{
+    background: #fc5a78;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 20%;
+    position: relative;
+    top: -30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+}
+.vajal-menu-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.v-m{
+    width: 25%;
+    float: left;
+    margin: 150px 0px 100px 0px;
+}
+.v-m nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.v-m nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.x{
+    font-size: 20px;
+}
+.vajal-serch-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.vajal-serch-part h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.vajal-serch-part p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.serch{
+    padding: 18px;
+    width: 40%;
+    background-color: #d6d6d6;
+    border: #000000;
+}
+.v-p{
+    background: #0ac0f1;
+    color: #000000;
+    padding: 15px;
+    width: 12%;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+}
+/* footer section */
+.foooter-section{
+    width: 100%;
+    float: left;
+    background-color: #233148;
+    padding: 25px;
+}
+.footer-writing{
+    width: 50%;
+    float: left;
+}
+.footer-writing h2{
+    color: white;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.footer-social{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.footer-social i{
+    color: white;
+    margin: 0px 25px;
+    font-size: 18px;
+}
+
+/* responsive css is here */
+
+@media (max-width:600px){
+
+    /* header part */
+    
+    .logo-part img{
+        width: 30%;
+    }
+    .menu-part nav ul li{
+        margin: 0px 10px;
+    }
+
+    /* hero part */
+    
+    .hero-text h1{
+        font-size: 40px;
+    }
+    .b-r{
+        display: none;
+    }
+    .hero-img img{
+        width: 30%;
+    }
+    .hero-text P{
+        font-size:15px
+    }
+
+    /* about part */
+    
+    .about-img-part{
+        width: 100%;
+        float: left;
+    }
+    .about-img-part img{
+        width: 30%;
+    }
+    .about-feature-part{
+        width: 100%;
+        float: left;
+        margin: 0px auto 0px;
+    }
+    .b-x{
+        margin: 60px auto 0px;
+    }
+
+    /* ready section */
+    
+    .ready-section{
+        width: 100%;
+        float: left;
+        margin: 0px auto;
+    }
+    .writing-part{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .writing-part p{
+        width: 90%;
+    }
+    .ready-container{
+        width: 100%;
+    }
+
+    /* need part */
+    
+    .need-part{
+        width: 100%;
+        float: left;
+    }
+    .need-img-part{
+        width: 90%;
+    }
+    .need-writing-part{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .n-w{
+        margin: 40px auto 0px;
+    }
+    .n-w i{
+        margin: 5px 0px 0px 0px;
+    }
+    .n-w p{
+        width: 80%;
+        margin: 30px auto 0px;
+    }
+    
+
+    /* now part */
+    
+    .now-img-part{
+        width: 100%;
+        text-align: center;
+    }
+    .now-img-part img{
+        width: 30%;
+        margin: 100px 0px 70px 0px;
+    }
+    .now-writing-part{
+        width: 100%;
+    }
+    .n-w-p{
+        margin: 0px auto;
+        text-align: center;
+    }
+    .n-w-p h2{
+        margin: 0px 0px 30px 0px;
+    }
+    .n-w-p p{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .b-1{
+        margin: 30px 30px 100px 0px;
+    }
+
+    /* vajal part */
+    
+    .v-b{
+        width: 50%;
+    }
+    .v-m{
+        width: 50%;
+        margin: 100px auto;
+    }
+    .menu-4{
+        margin-top: -190px;
+    }
+    .vajal-serch-part p{
+        font-size: 15px;
+    }
+    .serch{
+        padding: 18px;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .v-p{
+        padding: 15px;
+        width: 30%;
+    }
+
+    /* footer part */
+    
+    .footer-writing h2{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .footer-social i{
+        margin: 0px 13px;
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width:601px) and (max-width:768px){
+
+    /* header part */
+    
+    .logo-part img{
+        width: 30%;
+    }
+    .menu-part nav ul li{
+        margin: 0px 10px;
+    }
+
+    /* hero part */
+    
+    .hero-text h1{
+        font-size: 50px;
+    }
+    .b-r{
+        display: none;
+    }
+    .hero-img img{
+        width: 30%;
+    }
+    .hero-text P{
+        font-size:16px
+    }
+
+    /* about part */
+    
+    .about-img-part{
+        width: 100%;
+        float: left;
+    }
+    .about-img-part img{
+        width: 30%;
+    }
+    .about-feature-part{
+        width: 100%;
+        float: left;
+        margin: 0px auto 0px;
+    }
+    .b-x{
+        margin: 60px auto 0px;
+    }
+
+    /* ready section */
+    
+    .ready-section{
+        width: 100%;
+        float: left;
+    }
+    .writing-part{
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 150px auto 0px;
+    }
+    .writing-part p{
+        width: 80%;
+        margin: 30px auto 20px;
+    }
+    .ready-container{
+        width: 100%;
+    }
+
+    /* need part */
+    
+    .need-part{
+        width: 100%;
+        float: left;
+    }
+    .need-img-part{
+        width: 90%;
+    }
+    .need-writing-part{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .n-w{
+        margin: 40px auto 0px;
+        text-align: center;
+    }
+    .n-w i{
+        margin: 5px auto 0px;
+    }
+    .n-w p{
+        width: 80%;
+        margin: 40px auto 0px;
+    }
+    
+
+    /* now part */
+    
+    .now-img-part{
+        width: 100%;
+        text-align: center;
+    }
+    .now-img-part img{
+        width: 30%;
+        margin: 100px 0px 60px 0px;
+    }
+    .now-writing-part{
+        width: 100%;
+    }
+    .n-w-p{
+        margin: 0px auto;
+        text-align: center;
+    }
+    .n-w-p h2{
+        margin: 0px 0px 40px 0px;
+    }
+    .n-w-p p{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .b-1{
+        margin: 60px 30px 150px 0px;
+    }
+
+    /* vajal part */
+    
+    .v-b{
+        width: 50%;
+    }
+    .v-m{
+        width: 50%;
+        margin: 100px auto;
+    }
+    .menu-4{
+        margin-top: -190px;
+    }
+    .vajal-serch-part p{
+        font-size: 15px;
+    }
+    .serch{
+        padding: 18px;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .v-p{
+        padding: 15px;
+        width: 30%;
+    }
+
+    /* footer part */
+    
+    .footer-writing h2{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .footer-social i{
+        margin: 0px 13px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+
+    /* header part */
+    
+        .logo-part img{
+            width: 20%;
+        }
+        .menu-part nav ul li{
+            margin: 0px 10px;
+        }
+    
+        /* hero part */
+        
+        .hero-text h1{
+            font-size: 60px;
+        }
+        .b-r{
+            display: none;
+        }
+        .hero-img img{
+            width: 30%;
+        }
+        .hero-text P{
+            font-size:15px
+        }
+    
+        /* about part */
+        
+        .about-img-part{
+            width: 100%;
+            float: left;
+        }
+        .about-img-part img{
+            width: 30%;
+        }
+        .about-feature-part{
+            width: 100%;
+            float: left;
+            margin: 0px auto 0px;
+        }
+        .b-x{
+            width: 50%;
+            padding: 5%;
+            margin: 60px auto 0px;
+        }
+    
+        /* ready section */
+        
+        .ready-section{
+            width: 100%;
+            float: left;
+        }
+        .writing-part{
+            width: 100%;
+            float: left;
+            text-align: center;
+            max-width: 0px auto;
+        }
+        .writing-part p{
+            width: 70%;
+            margin: 40px auto;
+        }
+        .ready-container{
+            width: 100%;
+            padding: 20%;
+            margin: -100px auto 0px;
+        }
+    
+        /* need part */
+        
+        .need-part{
+            width: 100%;
+            float: left;
+        }
+        .need-img-part{
+            width: 100%;
+            text-align: center;
+            margin: 0px auto;
+        }
+        .need-img-part img{
+            width: 70%;
+            text-align: center;
+            margin: 0px auto;
+        }
+        .need-writing-part{
+            width: 100%;
+            float: left;
+            text-align: center;
+        }
+        .n-w{
+            margin: 40px 0px 0px 0px;
+            text-align: center;
+        }
+        .n-w i{
+            margin: 5px 0px 0px 0px;
+        }
+        .n-w p{
+            width: 80%;
+            margin: 25px auto 0px;
+            text-align: center;
+        }
+        
+    
+        /* now part */
+        
+        .now-img-part{
+            width: 100%;
+            text-align: center;
+        }
+        .now-img-part img{
+            width: 25%;
+            margin: 100px auto 50px;
+        }
+        .now-writing-part{
+            width: 100%;
+        }
+        .n-w-p{
+            margin: 0px auto;
+            text-align: center;
+        }
+        .n-w-p h2{
+            margin: 0px auto 40px;
+        }
+        .n-w-p p{
+            width: 90%;
+            margin: 0px auto;
+        }
+        .b-1{
+            margin: 70px 30px 150px 0px;
+        }
+    
+        /* vajal part */
+        
+        .v-b{
+            width: 50%;
+        }
+        .v-m{
+            width: 50%;
+            margin: 100px auto;
+        }
+        .menu-4{
+            margin-top: -190px;
+        }
+        .vajal-serch-part p{
+            font-size: 15px;
+        }
+        .serch{
+            padding: 18px;
+            width: 70%;
+            margin-bottom: 30px;
+        }
+        .v-p{
+            padding: 15px;
+            width: 30%;
+        }
+    
+        /* footer part */
+        
+        .footer-writing h2{
+            font-size: 12px;
+            margin-left: 0px;
+        }
+        .footer-social i{
+            margin: 0px 13px;
+            font-size: 15px;
+        }
+}
